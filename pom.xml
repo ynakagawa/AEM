@@ -35,6 +35,73 @@
 
     <dependencyManagement>
         <dependencies>
+            <!-- workflow step -->
+            <dependency>
+                <groupId>org.apache.jackrabbit</groupId>
+                <artifactId>jackrabbit-core</artifactId>
+                <version>2.4.3</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.jackrabbit</groupId>
+                <artifactId>jackrabbit-jcr-commons</artifactId>
+                <version>2.4.3</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.sling</groupId>
+                <artifactId>org.apache.sling.api</artifactId>
+                <version>2.2.4</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>javax.jcr</groupId>
+                <artifactId>jcr</artifactId>
+                <version>2.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.day.cq.wcm</groupId>
+                <artifactId>cq-wcm-api</artifactId>
+                <version>5.5.0</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.day.cq</groupId>
+                <artifactId>cq-commons</artifactId>
+                <version>5.5.0</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.day.cq.workflow</groupId>
+                <artifactId>cq-workflow-api</artifactId>
+                <version>5.4.2</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.day.cq</groupId>
+                <artifactId>cq-mailer</artifactId>
+                <version>5.6.2</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <!-- -->
+            <dependency>
+                <groupId>com.adobe.granite</groupId>
+                <artifactId>com.adobe.granite.replication.core</artifactId>
+                <version>5.14.8</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.adobe.granite</groupId>
+                <artifactId>com.adobe.granite.workflow.api</artifactId>
+                <version>1.0.2</version>
+                <scope>provided</scope>
+            </dependency>
+            <!-- -->
             <dependency>
                 <groupId>org.osgi</groupId>
                 <artifactId>org.osgi.core</artifactId>

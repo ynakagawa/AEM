@@ -1,4 +1,4 @@
-package com.adobe.acs.sample;
+package com.adobe.acs.sample.servlets;
 
 /**
  * Created with IntelliJ IDEA.
